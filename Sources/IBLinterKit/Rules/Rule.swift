@@ -32,7 +32,8 @@ public struct Rules {
         return [
             CustomClassNameRule.self,
             ForceToEnableAutoLayoutRule.self,
-            DuplicateConstraintRule.self
+            DuplicateConstraintRule.self,
+            SceneCountRule.self
         ]
     }
 
