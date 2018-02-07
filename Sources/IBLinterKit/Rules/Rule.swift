@@ -23,7 +23,8 @@ public struct Rules {
             MisplacedViewRule.self,
             ForceToEnableAutoLayoutRule.self,
             DuplicateConstraintRule.self,
-            StoryboardViewControllerId.self
+            StoryboardViewControllerId.self,
+            SceneCountRule.self
         ]
     }
 
