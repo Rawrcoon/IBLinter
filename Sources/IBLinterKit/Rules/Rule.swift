@@ -30,10 +30,11 @@ public struct Rules {
 
     static var defaultRules: [Rule.Type] {
         return [
-            CustomClassNameRule.self,
             ForceToEnableAutoLayoutRule.self,
             DuplicateConstraintRule.self,
-            SceneCountRule.self
+            SceneCountRule.self,
+            RelativeToMarginRule.self,
+            MisplacedViewRule.self
         ]
     }
 
